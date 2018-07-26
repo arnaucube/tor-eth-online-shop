@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>tor-eth-online-shop</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1>tor-eth-online-shop</h1>
+        <div class="row" id="mainView">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="https://vignette.wikia.nocookie.net/joke-battles/images/f/f7/711MkPTJ4OL._SL1500_.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Product 1</h5>
+                    <p class="card-text">Description.</p>
+                    <a onclick="addProduct('id1')" href="#" class="btn btn-outline-success float-right">Add to card</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="https://5.imimg.com/data5/YX/SD/MY-2492706/slotted-carton-box-500x500.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Product 2</h5>
+                    <p class="card-text">Description.</p>
+                    <a onclick="addProduct('id2')" href="#" class="btn btn-outline-success float-right">Add to card</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img class="card-img-top" src="https://image.shutterstock.com/image-photo/closed-cardboard-box-taped-isolated-260nw-168691364.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Product 3</h5>
+                    <p class="card-text">Description.</p>
+                    <a onclick="addProduct('id3')" href="#" class="btn btn-outline-success float-right">Add to card</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <div class="card-body">
+                <h3>Selected products</h3>
+                <p id="list" class="card-text"></p>
+                <a onclick="purchase()" href="#" class="btn btn-outline-success float-right">Purchase</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+      <script src="index.js"></script>
+    </body>
+  </html>
